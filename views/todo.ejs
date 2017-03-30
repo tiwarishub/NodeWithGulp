@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Odd / Even</title>
+        <style>
+            a {text-decoration: none; color: black;}
+        </style>
+    </head>
+
+    <body>
+        <label><%= result %></label>
+
+        <form action="/todo/add/" method="post">
+            <p>
+                <label for="num">Enter a number</label>
+                <input type="number" name="num" id="num" autofocus />
+                <input type="submit" />
+            </p>
+        </form>
+    </body>
+</html>
